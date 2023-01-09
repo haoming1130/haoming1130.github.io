@@ -1,0 +1,378 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>计算机网络知识点 | 小明学习博客</title><meta name="author" content="Haoming Lu"><meta name="copyright" content="Haoming Lu"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="计算机网络知识点CDN 内容发布网络​		CDN 的全称是(Content Delivery Network)，即内容分发网络。其目的是通过在现有的Internet中增加一层新的CACHE(缓存)层，将网站的内容发布到最接近用户的网络”边缘“的节点，使用户可以就近取得所需的内容，提高用户访问网站的响应速度。从技术上全面解决由于网络带宽小、用户访问量大、网点分布不均等原因，提高用户访问网站的响应速度">
+<meta property="og:type" content="article">
+<meta property="og:title" content="计算机网络知识点">
+<meta property="og:url" content="http://haoming1130.github.io/2023/01/04/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9F%A5%E8%AF%86%E7%82%B9/index.html">
+<meta property="og:site_name" content="小明学习博客">
+<meta property="og:description" content="计算机网络知识点CDN 内容发布网络​		CDN 的全称是(Content Delivery Network)，即内容分发网络。其目的是通过在现有的Internet中增加一层新的CACHE(缓存)层，将网站的内容发布到最接近用户的网络”边缘“的节点，使用户可以就近取得所需的内容，提高用户访问网站的响应速度。从技术上全面解决由于网络带宽小、用户访问量大、网点分布不均等原因，提高用户访问网站的响应速度">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://s2.loli.net/2022/12/04/IWqKCzP5gwNfbVL.jpg">
+<meta property="article:published_time" content="2023-01-04T13:14:52.353Z">
+<meta property="article:modified_time" content="2023-01-05T13:33:12.737Z">
+<meta property="article:author" content="Haoming Lu">
+<meta property="article:tag" content="资源">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s2.loli.net/2022/12/04/IWqKCzP5gwNfbVL.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://haoming1130.github.io/2023/01/04/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9F%A5%E8%AF%86%E7%82%B9/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '计算机网络知识点',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: true,
+  isToc: true,
+  postUpdate: '2023-01-05 21:33:12'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://unpkg.zhimg.com/hexo-butterfly-footer-beautify@1.0.0/lib/runtime.min.css" media="print" onload="this.media='all'"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+
+if (false) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">40</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">5</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-envelope"></i><span> 留言板</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://s2.loli.net/2022/12/04/IWqKCzP5gwNfbVL.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">小明学习博客</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-envelope"></i><span> 留言板</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">计算机网络知识点</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-01-04T13:14:52.353Z" title="发表于 2023-01-04 21:14:52">2023-01-04</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-01-05T13:33:12.737Z" title="更新于 2023-01-05 21:33:12">2023-01-05</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%B5%84%E6%BA%90/">资源</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">3.4k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>10分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="计算机网络知识点"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="计算机网络知识点"><a href="#计算机网络知识点" class="headerlink" title="计算机网络知识点"></a>计算机网络知识点</h1><h2 id="CDN-内容发布网络"><a href="#CDN-内容发布网络" class="headerlink" title="CDN 内容发布网络"></a>CDN 内容发布网络</h2><p>​		<strong>CDN</strong> 的全称是(Content Delivery Network)，即<strong>内容分发网络</strong>。其目的是通过在现有的Internet中增加一层新的<strong>CACHE(缓存)<strong>层，将网站的内容发布到最接近用户的网络”</strong>边缘</strong>“的节点，使用户可以就近取得所需的内容，提高用户访问网站的响应速度。从技术上全面解决由于网络带宽小、用户访问量大、网点分布不均等原因，提高用户访问网站的响应速度。</p>
+<p>​		简单的说，CDN 的工作原理就是将您源站的资源<strong>缓存</strong>到位于全球各地的 CDN 节点上，用户请求资源时，就近返回节点上缓存的资源，而不需要每个用户的请求都回您的源站获取，避免网络拥塞、缓解源站压力，保证用户访问资源的速度和体验。</p>
+<img src="https://cdn.nlark.com/yuque/0/2021/png/1139022/1627558021596-43dae405-f8c0-4fe3-9c84-82954412eca0.png?x-oss-process=image%2Fresize%2Cw_628%2Climit_0" alt="image.png" style="zoom:67%;" />
+
+<h3 id="CDN的优点"><a href="#CDN的优点" class="headerlink" title="CDN的优点"></a>CDN的优点</h3><p>CDN 对 <strong>网络</strong> 的优化作用主要体现在：</p>
+<ul>
+<li>解决服务器端的“第一公里”问题</li>
+<li>缓解甚至消除了不同运营商之间互联的瓶颈造成的影响</li>
+<li>减轻了各省的出口带宽压力</li>
+<li>缓解了骨干网的压力</li>
+<li>优化了网上热点内容的分布</li>
+</ul>
+<h3 id="CDN工作原理"><a href="#CDN工作原理" class="headerlink" title="CDN工作原理"></a>CDN工作原理</h3><p><strong>传统的网站访问过程</strong>为：</p>
+<ol>
+<li>用户输入访问的域名，操作系统向 <code>LocalDns</code> 查询域名的 <code>ip</code> 地址</li>
+<li><code>LocalDns</code> 向 ROOT DNS 查询域名的授权服务器（这里假设 <code>LocalDns</code> 缓存过期）</li>
+<li><strong>ROOT DNS</strong> 将域名授权 <code>dns</code> 记录回应给 <code>LocalDns</code></li>
+<li><code>LocalDns</code> 得到域名的授权 <code>dns</code> 记录后,继续向域名授权 <code>dns</code> 查询域名的 <code>ip</code> 地址</li>
+<li>域名授权 <code>dns</code> 查询域名记录后，回应给 <code>LocalDns</code></li>
+<li><code>LocalDns</code> 将得到的域名 <code>ip</code> 地址，回应给 用户端</li>
+<li>用户得到域名 <code>ip</code> 地址后，访问站点服务器</li>
+<li>站点服务器应答请求，将内容返回给客户端</li>
+</ol>
+<p><img src="https://cdn.nlark.com/yuque/0/2021/png/1139022/1627558073867-c3bc7b34-0b64-4681-b92e-0c35b0f93d9c.png" alt="image.png"></p>
+<p>使用CDN缓存后，网站的访问过程变成了：</p>
+<ol>
+<li>用户输入访问的域名,操作系统向 <code>LocalDns</code> 查询域名的 <code>ip</code> 地址.</li>
+<li><code>LocalDns</code> 向 <strong>ROOT DNS</strong> 查询域名的授权服务器（这里假设 <code>LocalDns</code> 缓存过期）</li>
+<li><strong>ROOT DNS</strong> 将域名授权 <code>dns</code> 记录回应给 <code>LocalDns</code></li>
+<li><code>LocalDns</code> 得到域名的授权 <code>dns</code> 记录后,继续向域名授权 <code>dns</code> 查询域名的 <code>ip</code> 地址</li>
+<li>域名授权 <code>dns</code> 查询域名记录后（一般是<strong>CNAME</strong>），回应给 <code>LocalDns</code></li>
+<li><code>LocalDns</code> 得到域名记录后，向 <strong>智能调度DNS</strong> 查询域名的 <code>ip</code>地址</li>
+<li><strong>智能调度DNS</strong> 根据一定的算法和策略（比如静态拓扑，容量等），将最适合的CDN节点 <code>ip</code> 地址回应给 <code>LocalDns</code></li>
+<li><code>LocalDns</code> 将得到的域名 <code>ip</code> 地址，回应给 用户端</li>
+<li>用户得到域名 <code>ip</code> 地址后，访问站点服务器</li>
+<li>CDN 节点服务器应答请求，将内容返回给客户端。（缓存服务器一方面在本地进行保存，以备以后使用，二方面把获取的数据返回给客户端，完成数据服务过程）</li>
+</ol>
+<img src="https://cdn.nlark.com/yuque/0/2021/png/1139022/1627558123158-44c805a3-bea3-4691-a4c3-754b8719dbd6.png" alt="image.png"  />
+
+<p>​		为了实现对普通用户透明（<strong>使用缓存后用户客户端无需进行任何设置</strong>）访问，需要<strong>使用 DNS（域名解析）来引导用户来访问 Cache 服务器</strong>，以实现透明的加速服务。由于用户访问网站的第一步就是域名解析，所以通过修改 <code>dns</code> 来引导用户访问是最简单有效的方式。</p>
+<h3 id="特有名词释义"><a href="#特有名词释义" class="headerlink" title="特有名词释义"></a>特有名词释义</h3><h4 id="CNAME记录（CNAME-record）"><a href="#CNAME记录（CNAME-record）" class="headerlink" title="CNAME记录（CNAME record）"></a>CNAME记录（CNAME record）</h4><p>​		CNAME即别名( Canonical Name )；</p>
+<p>​		可以用来把一个域名解析到另一个域名，当 DNS 系统在查询 CNAME 左面的名称的时候，都会转向 CNAME 右面的名称再进行查询，一直追踪到最后的 PTR 或 A 名称，成功查询后才会做出回应，否则失败。</p>
+<p>​		例如，你有一台服务器上存放了很多资料，你使用docs.example.com去访问这些资源，但又希望通过documents.example.com也能访问到这些资源，那么你就可以在您的DNS解析服务商添加一条CNAME记录，将documents.example.com指向docs.example.com，添加该条CNAME记录后，所有访问documents.example.com的请求都会被转到docs.example.com，获得相同的内容。</p>
+<h4 id="CNAME域名"><a href="#CNAME域名" class="headerlink" title="CNAME域名"></a>CNAME域名</h4><p>​		接入CDN时，在CDN提供商控制台添加完加速域名后，您会得到一个CDN给您分配的CNAME域名， 您需要在您的DNS解析服务商添加CNAME记录，将自己的加速域名指向这个CNAME域名，这样该域名所有的请求才会都将转向CDN的节点，达到 <strong>加速</strong> 效果。</p>
+<h4 id="DNS"><a href="#DNS" class="headerlink" title="DNS"></a>DNS</h4><p>​		DNS 即 Domain Name System，是<strong>域名解析服务</strong>的意思。它在互联网的作用是：把域名转换成为网络可以识别的 IP 地址。人们习惯记忆域名，但机器间互相只认IP地址，域名与IP地址之间是一一对应的，它们之间的转换工作称为域名解析，域名解析需要由专门的域名解析服务器来完成，整个过程是自动进行的。比如：上网时输入的<a target="_blank" rel="noopener" href="http://www.baidu.com/">www.baidu.com</a> 会自动转换成为 220.181.112.143。</p>
+<p>​		常见的DNS解析服务商有：阿里云解析，万网解析，DNSPod，新网解析，Route53（AWS），Dyn，Cloudflare等。</p>
+<h4 id="回源-host"><a href="#回源-host" class="headerlink" title="回源 host"></a>回源 host</h4><p>​		回源host：回源 host 决定回源请求访问到源站上的具体某个站点。</p>
+<p>例子1：源站是域名源站为<a target="_blank" rel="noopener" href="http://www.a.com,回源host为www.b.com,那么实际回源是请求到www.a.com解析到的ip,对应的主机上的站点www.b.com/">www.a.com，回源host为www.b.com，那么实际回源是请求到www.a.com解析到的IP，对应的主机上的站点www.b.com</a></p>
+<p>例子2：源站是IP源站为1.1.1.1，回源host为<a target="_blank" rel="noopener" href="http://www.b.com,那么实际回源的是1.1.1.1对应的主机上的站点www.b.com/">www.b.com，那么实际回源的是1.1.1.1对应的主机上的站点www.b.com</a></p>
+<h4 id="协议回源"><a href="#协议回源" class="headerlink" title="协议回源"></a>协议回源</h4><p>​		协议回源指 <strong>回源时使用的协议和客户端访问资源时的协议保持一致</strong>，即如果客户端使用 HTTPS 方式请求资源，当CDN节点上未缓存该资源时，节点会使用相同的 HTTPS 方式回源获取资源；同理如果客户端使用 HTTP 协议的请求，CDN节点回源时也使用HTTP协议。</p>
+<h2 id="TCP-x2F-IP模型"><a href="#TCP-x2F-IP模型" class="headerlink" title="TCP&#x2F;IP模型"></a>TCP&#x2F;IP模型</h2><p><img src="https://cdn.nlark.com/yuque/0/2021/png/1139022/1610634119325-9eb8ff10-e783-47f8-ae33-e5b3e046eb73.png?x-oss-process=image/resize,w_1038/resize,w_937,limit_0" alt="img"></p>
+<p><img src="https://cdn.nlark.com/yuque/0/2021/png/1139022/1610634135099-4c6b8a4d-5c16-4565-b05d-b7b37e2c88f3.png?x-oss-process=image/resize,w_937,limit_0" alt="img"></p>
+<h3 id="应用层协议及作用"><a href="#应用层协议及作用" class="headerlink" title="应用层协议及作用"></a>应用层协议及作用</h3><ul>
+<li>HTTP</li>
+</ul>
+<p>缺省TCP 80 端口，用于浏览器浏览网页，但网页内容为明文，容易篡改、容易劫持、网页内容容易泄漏</p>
+<ul>
+<li>HTTPS</li>
+</ul>
+<p>HTTPS里的S代表Security，缺省工作于TCP 443端口，只是在普通的HTTP与TCP层之间多了一个安全加密的夹层，称之为SSL（Secure Socket Layer），用于加密基于HTTP的网页内容，不容易篡改、不容易劫持、网页内容保密，目前广泛用于网上银行等行业。但有安全漏洞，容易受中间人欺骗攻击。</p>
+<ul>
+<li>SMTP</li>
+</ul>
+<p>用于邮件发送的基于TCP的应用层协议</p>
+<ul>
+<li>POP3</li>
+</ul>
+<p>用于邮件接收的基于TCP的应用层协议</p>
+<ul>
+<li>DNS</li>
+</ul>
+<p>用于解析域名与IP地址的基于UDP&#x2F;TCP 应用层协议</p>
+<h3 id="数据链路层协议及作用"><a href="#数据链路层协议及作用" class="headerlink" title="数据链路层协议及作用"></a>数据链路层协议及作用</h3><ul>
+<li>ARP</li>
+</ul>
+<p>地址解析协议， 用于实现从 IP 地址到 MAC 地址的映射，即询问目标IP对应的MAC地址</p>
+<h2 id="应用层"><a href="#应用层" class="headerlink" title="应用层"></a>应用层</h2><h3 id="SSL-x2F-TSL"><a href="#SSL-x2F-TSL" class="headerlink" title="SSL&#x2F;TSL"></a>SSL&#x2F;TSL</h3><p>​		SSL 即安全套接层（Secure Sockets Layer），在 OSI 七层模型中处于**会话层(第 5 层)**。</p>
+<p>​		SSL 出过三个大版本，当它发展到 <strong>第三个大版本</strong> 的时候才被标准化，成为 TLS（传输层安全，Transport Layer Security）</p>
+<p>​		现在主流的版本是 TLS&#x2F;1.2，在 2018 年推出了更加优秀的 TLS1.3，大大优化了 TLS 握手过程。</p>
+<h4 id="对称加密算法"><a href="#对称加密算法" class="headerlink" title="对称加密算法"></a>对称加密算法</h4><p>​		对称加密算法的原理很简单：加密&#x2F;解密双方只要拥有同一秘钥即可完成加密&#x2F;解密的过程</p>
+<p>​		但对称加密算法容易引出一个问题： <strong>秘钥如何安全传输？</strong></p>
+<p>​		因为需求带动了生产，出现了 <strong>非对称加密算法</strong></p>
+<h4 id="非对称加密算法"><a href="#非对称加密算法" class="headerlink" title="非对称加密算法"></a>非对称加密算法</h4><p>​		一般而言，非对称加密算法都指的是 <strong>RSA</strong>。RSA算法基于一个简单的数理理论：</p>
+<blockquote>
+<p>将两个大素数相乘十分容易，但是想要对其乘积进行因式分解却极其困难，因此可以将乘积公开作为加密密钥</p>
+</blockquote>
+<p>​		通过RSA算法可以得出规则：<strong>通讯的双方各有一套公钥和私钥，同一套公钥和私钥中公钥的加密需要私钥才能解密，私钥的加密需要公钥才能解密。</strong></p>
+<p>​		举个例子，A把自己的公钥公开，B拿到了A的公钥，然后用A的公钥加密数据包发送回给A，A再用自己的私钥解密就得到了明文。在这个过程中任何第三方拦截了信息都没法破解，有了这个算法之后安全性就有了保障。</p>
+<img src="https://cdn.nlark.com/yuque/0/2021/webp/1139022/1615978645419-9d64766b-febe-4aaf-90dc-772d60e237cb.webp?x-oss-process=image%2Fresize%2Cw_937%2Climit_0" alt="img" style="zoom:67%;" />
+
+<h4 id="对称和非对称的区别"><a href="#对称和非对称的区别" class="headerlink" title="对称和非对称的区别"></a>对称和非对称的区别</h4><ol>
+<li>对称加密中加密和解密使用的秘钥是同一个；非对称加密中采用两个密钥，一般使用公钥进行加密，私钥进行解密。</li>
+<li>对称加密解密的速度比较快，非对称加密和解密花费的时间长、速度相对较慢。</li>
+<li>对称加密的安全性相对较低，非对称加密的安全性较高。</li>
+</ol>
+<p>非对称加密算法相比对称加密算法，安全性得到了巨大提高，可非对称加密算法就 <strong>绝对安全</strong> 了吗？答案是否定的。</p>
+<h4 id="中间人攻击"><a href="#中间人攻击" class="headerlink" title="中间人攻击"></a>中间人攻击</h4><p>​		在非对称加密算法中，双方的公钥都是公开的，并没有任何证据可以<strong>证明公钥属于A还是B</strong>，如果这个时候有个中间人M，通过某种途径加入了双方的通信中，就很有可能窃取到双方信息。</p>
+<img src="https://cdn.nlark.com/yuque/0/2021/png/1139022/1615979324447-14e03b7b-baf7-4e05-a366-044d51f94eb3.png?x-oss-process=image%2Fresize%2Cw_720%2Climit_0" alt="img" style="zoom: 80%;" />
+
+<p>​		在A向B通信的时候，A要拿到B的公钥加密信息，这个时候中间人M谎称自己的公钥是B的公钥，于是A拿M的公钥加密了信息传递出去，这时候M拿到了信息并用自己的私钥解密信息，随后再用B的公钥加密发送给了B。</p>
+<p>​		在这个过程中A和B以为通信绝对安全，但实际上早就被M拿到了信息明文。至于M是如何中间人的，实际上是另外一个安全问题了。这里的关键是只要M让A相信公钥是B的，就可以做中间人攻击。</p>
+<img src="https://cdn.nlark.com/yuque/0/2021/webp/1139022/1615978926639-acf8225f-58e1-4ef5-9eb1-04a74814265a.webp?x-oss-process=image%2Fresize%2Cw_798%2Climit_0" alt="img" style="zoom:80%;" />
+
+<h4 id="CA-–-第三方认证机构"><a href="#CA-–-第三方认证机构" class="headerlink" title="CA – 第三方认证机构"></a>CA – 第三方认证机构</h4><p>​		为了解决中间人攻击这个问题，需要解决一个问题——<strong>证明公钥的拥有者</strong>，为了使证明具有信服力，我们需要一个专门吃这口饭的第三方认证机构来实现。第三方认证机构要做的事情简单来讲就一个，确保A拿到的公钥真正属于B，而非其它浑水摸鱼的中间人M。</p>
+<p>​		那么认证机构是如何使认证结果具有信服力的呢？</p>
+<ul>
+<li><strong>机构可信任度</strong></li>
+</ul>
+<p>​		在互联网中，最具有公信力的最顶级的认证就是 <strong>CA认证</strong> 了，只要是这个CA颁发的证书就是可信任的，通常作为<strong>根证书</strong>。</p>
+<p>​		依托根证书的可信任度，其它中间机构向顶级CA申请了中间CA证书，就这样一层层下来，最终个人CA向上级某一CA申请的证书就是最终的<strong>终端普通数字证书</strong>，整个签发关系就叫<strong>证书链</strong></p>
+<ul>
+<li><p><strong>证书的防伪性</strong></p>
+<p>在日常生活中，我们有防伪商标、防伪码等形式确保正品，在互联网中，我们通过 <strong>数字签名</strong> 实现向第三方机构查询验证相关信息正确的过程。</p>
+</li>
+</ul>
+<p>​		数字签名是CA用自己的私钥对B的个人信息进行非对称加密所得到的，当A得到B提供的数字证书，B也同时得到了A的个人信息和数字签名，然后用CA提供的公钥对数字签名进行解密，再拿其和A的个人信息进行比对，如果一样则证明该数字证书是CA认证过的。</p>
+<ul>
+<li><strong>摘要算法</strong></li>
+</ul>
+<p>​		我们都知道，非对称加密算法 <strong>生成数字签名以及解密数字签名</strong> 的耗时比较长，如果再加上校验，那对于访问效率而言是不利的。摘要算法的作用顾名思义就是取出原文中精简过的部分，它可将任意大小的原文信息加密并摘要成<strong>固定长度的简短密文</strong>，意思就是对于不同的原文信息，采用同一摘要算法可以得到同一长度的密文。依靠此算法就可以解决个人信息过大导致的时间过长问题。</p>
+<h4 id="完整的HTTPS通信"><a href="#完整的HTTPS通信" class="headerlink" title="完整的HTTPS通信"></a>完整的HTTPS通信</h4><ol>
+<li>客户端要访问一个网站，向支持https的服务器发起请求。</li>
+<li>客户端向服务器发送自己支持的秘钥交换算法列表。</li>
+<li>服务器选取一种秘钥交换算法加上CA证书返回给客户端。</li>
+<li>客户端验证服务器是否合法，并生成一个随机数然后用协商好的加密算法加密生成随机秘钥，并用刚才从CA证书中拿到的公钥对其加密后发送给服务器。</li>
+<li>服务器收到后用自己的私钥解密</li>
+<li>服务器私钥解密之后，拿到对称秘钥，并且用它再加密一个信息，返回给浏览器。</li>
+</ol>
+<img src="https://cdn.nlark.com/yuque/0/2021/png/1139022/1616395205155-cb997a35-e977-475e-b8a7-4eb4998609b4.png?x-oss-process=image%2Fresize%2Cw_682%2Climit_0" alt="image.png" style="zoom:80%;" />
+
+ 
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="http://haoming1130.github.io">Haoming Lu</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://haoming1130.github.io/2023/01/04/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9F%A5%E8%AF%86%E7%82%B9/">http://haoming1130.github.io/2023/01/04/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9F%A5%E8%AF%86%E7%82%B9/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://haoming1130.github.io" target="_blank">小明学习博客</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E8%B5%84%E6%BA%90/">资源</a></div><div class="post_share"><div class="social-share" data-image="https://s2.loli.net/2022/12/04/IWqKCzP5gwNfbVL.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2023/01/05/%E7%AE%97%E6%B3%95%E8%AE%AD%E7%BB%83%E8%90%A5--day30/"><img class="prev-cover" src="https://s2.loli.net/2022/12/04/IWqKCzP5gwNfbVL.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">算法训练营（day30）</div></div></a></div><div class="next-post pull-right"><a href="/2023/01/04/%E7%AE%97%E6%B3%95%E8%AE%AD%E7%BB%83%E8%90%A5--day29/"><img class="next-cover" src="https://s2.loli.net/2022/12/04/IWqKCzP5gwNfbVL.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">算法训练营（day29）</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div><div id="comment-switch"><span class="first-comment">Valine</span><span class="switch-btn"></span><span class="second-comment">Disqus</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div><div><div id="disqus_thread"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Haoming Lu</div><div class="author-info__description">一个经常写bug的乖小孩</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">40</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">5</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="mailto:1518244487@qq.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9F%A5%E8%AF%86%E7%82%B9"><span class="toc-number">1.</span> <span class="toc-text">计算机网络知识点</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#CDN-%E5%86%85%E5%AE%B9%E5%8F%91%E5%B8%83%E7%BD%91%E7%BB%9C"><span class="toc-number">1.1.</span> <span class="toc-text">CDN 内容发布网络</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#CDN%E7%9A%84%E4%BC%98%E7%82%B9"><span class="toc-number">1.1.1.</span> <span class="toc-text">CDN的优点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#CDN%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86"><span class="toc-number">1.1.2.</span> <span class="toc-text">CDN工作原理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%89%B9%E6%9C%89%E5%90%8D%E8%AF%8D%E9%87%8A%E4%B9%89"><span class="toc-number">1.1.3.</span> <span class="toc-text">特有名词释义</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#CNAME%E8%AE%B0%E5%BD%95%EF%BC%88CNAME-record%EF%BC%89"><span class="toc-number">1.1.3.1.</span> <span class="toc-text">CNAME记录（CNAME record）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#CNAME%E5%9F%9F%E5%90%8D"><span class="toc-number">1.1.3.2.</span> <span class="toc-text">CNAME域名</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#DNS"><span class="toc-number">1.1.3.3.</span> <span class="toc-text">DNS</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9B%9E%E6%BA%90-host"><span class="toc-number">1.1.3.4.</span> <span class="toc-text">回源 host</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8D%8F%E8%AE%AE%E5%9B%9E%E6%BA%90"><span class="toc-number">1.1.3.5.</span> <span class="toc-text">协议回源</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#TCP-x2F-IP%E6%A8%A1%E5%9E%8B"><span class="toc-number">1.2.</span> <span class="toc-text">TCP&#x2F;IP模型</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BA%94%E7%94%A8%E5%B1%82%E5%8D%8F%E8%AE%AE%E5%8F%8A%E4%BD%9C%E7%94%A8"><span class="toc-number">1.2.1.</span> <span class="toc-text">应用层协议及作用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82%E5%8D%8F%E8%AE%AE%E5%8F%8A%E4%BD%9C%E7%94%A8"><span class="toc-number">1.2.2.</span> <span class="toc-text">数据链路层协议及作用</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BA%94%E7%94%A8%E5%B1%82"><span class="toc-number">1.3.</span> <span class="toc-text">应用层</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#SSL-x2F-TSL"><span class="toc-number">1.3.1.</span> <span class="toc-text">SSL&#x2F;TSL</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86%E7%AE%97%E6%B3%95"><span class="toc-number">1.3.1.1.</span> <span class="toc-text">对称加密算法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86%E7%AE%97%E6%B3%95"><span class="toc-number">1.3.1.2.</span> <span class="toc-text">非对称加密算法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AF%B9%E7%A7%B0%E5%92%8C%E9%9D%9E%E5%AF%B9%E7%A7%B0%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="toc-number">1.3.1.3.</span> <span class="toc-text">对称和非对称的区别</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%AD%E9%97%B4%E4%BA%BA%E6%94%BB%E5%87%BB"><span class="toc-number">1.3.1.4.</span> <span class="toc-text">中间人攻击</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#CA-%E2%80%93-%E7%AC%AC%E4%B8%89%E6%96%B9%E8%AE%A4%E8%AF%81%E6%9C%BA%E6%9E%84"><span class="toc-number">1.3.1.5.</span> <span class="toc-text">CA – 第三方认证机构</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AE%8C%E6%95%B4%E7%9A%84HTTPS%E9%80%9A%E4%BF%A1"><span class="toc-number">1.3.1.6.</span> <span class="toc-text">完整的HTTPS通信</span></a></li></ol></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/01/09/%E7%AE%97%E6%B3%95%E8%AE%AD%E7%BB%83%E8%90%A5--day34/" title="算法训练营（day34）">算法训练营（day34）</a><time datetime="2023-01-09T05:58:04.975Z" title="发表于 2023-01-09 13:58:04">2023-01-09</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/01/09/%E7%AE%97%E6%B3%95%E8%AE%AD%E7%BB%83%E8%90%A5--day32/" title="算法训练营（day32）">算法训练营（day32）</a><time datetime="2023-01-09T05:11:15.099Z" title="发表于 2023-01-09 13:11:15">2023-01-09</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/01/06/%E7%AE%97%E6%B3%95%E8%AE%AD%E7%BB%83%E8%90%A5--day31/" title="算法训练营（day31）">算法训练营（day31）</a><time datetime="2023-01-06T02:34:14.915Z" title="发表于 2023-01-06 10:34:14">2023-01-06</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/01/05/%E7%AE%97%E6%B3%95%E8%AE%AD%E7%BB%83%E8%90%A5--day30/" title="算法训练营（day30）">算法训练营（day30）</a><time datetime="2023-01-05T06:36:28.688Z" title="发表于 2023-01-05 14:36:28">2023-01-05</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/01/04/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9F%A5%E8%AF%86%E7%82%B9/" title="计算机网络知识点">计算机网络知识点</a><time datetime="2023-01-04T13:14:52.353Z" title="发表于 2023-01-04 21:14:52">2023-01-04</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>function loadValine () {
+  function initValine () {
+    const valine = new Valine(Object.assign({
+      el: '#vcomment',
+      appId: '',
+      appKey: '',
+      avatar: 'monsterid',
+      serverURLs: '',
+      emojiMaps: "",
+      path: window.location.pathname,
+      visitor: false
+    }, null))
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else getScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js').then(initValine)
+}
+
+if ('Valine' === 'Valine' || !true) {
+  if (true) btf.loadComment(document.getElementById('vcomment'),loadValine)
+  else setTimeout(loadValine, 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script><script>function loadDisqus () {
+  var disqus_config = function () {
+    this.page.url = 'http://haoming1130.github.io/2023/01/04/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9F%A5%E8%AF%86%E7%82%B9/'
+    this.page.identifier = '/2023/01/04/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9F%A5%E8%AF%86%E7%82%B9/'
+    this.page.title = '计算机网络知识点'
+  };
+
+  window.disqusReset = () => {
+    DISQUS.reset({
+      reload: true,
+      config: disqus_config
+    })
+  }
+
+  if (window.DISQUS) disqusReset()
+  else {
+    (function() { 
+      var d = document, s = d.createElement('script');
+      s.src = 'https://.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  }
+
+  document.getElementById('darkmode').addEventListener('click', () => {
+    setTimeout(() => window.disqusReset(), 200)
+  })
+}
+
+if ('Valine' === 'Disqus' || !true) {
+  if (true) btf.loadComment(document.getElementById('disqus_thread'), loadDisqus)
+  else loadDisqus()
+} else {
+  function loadOtherComment () {
+    loadDisqus()
+  }
+}
+</script></div><div class="aplayer no-destroy" data-id="1708664797" data-server="tencent" data-type="playlist" data-order="list" data-fixed="true" data-preload="auto" data-autoplay="false" data-mutex="true" data-listFolded="true" data-narrow="false"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/metingjs/dist/Meting.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><!-- hexo injector body_end start --><script data-pjax>
+  function butterfly_footer_beautify_injector_config(){
+    var parent_div_git = document.getElementById('footer-wrap');
+    var item_html = '<div id="workboard"></div><p id="ghbdages"><a class="github-badge" target="_blank" href="https://beian.miit.gov.cn/#/Integrated/index" style="margin-inline:5px" data-title="本站已在xxxxxx自己修改 进行备案" title=""><img src="https://img.shields.io/badge/这里改成自己备案的&lt;自己修改&gt;-e1d492?style=flat&amp;logo=data:image/png;base64,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" alt=""/></a><a class="github-badge" target="_blank" href="https://github.com/" style="margin-inline:5px" data-title="本站项目由Github托管" title=""><img src="https://img.shields.io/badge/Source-Github-d021d6?style=flat&amp;logo=GitHub" alt=""/></a><a class="github-badge" target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&amp;utm_medium=referral" style="margin-inline:5px" data-title="本站使用为静态资源提供CDN加速" title=""><img src="https://img.shields.io/badge/CDN-又拍云-orange?style=flat&amp;logo=又拍云" alt=""/></a></p>';
+    console.log('已挂载butterfly_footer_beautify')
+    parent_div_git.insertAdjacentHTML("beforeend",item_html)
+    }
+  var elist = 'null'.split(',');
+  var cpage = location.pathname;
+  var epage = 'all';
+  var flag = 0;
+
+  for (var i=0;i<elist.length;i++){
+    if (cpage.includes(elist[i])){
+      flag++;
+    }
+  }
+
+  if ((epage ==='all')&&(flag == 0)){
+    butterfly_footer_beautify_injector_config();
+  }
+  else if (epage === cpage){
+    butterfly_footer_beautify_injector_config();
+  }
+  </script><script async src="https://unpkg.zhimg.com/hexo-butterfly-footer-beautify@1.0.0/lib/runtime.min.js"></script><!-- hexo injector body_end end --><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/koharu.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/"});</script></body></html>
